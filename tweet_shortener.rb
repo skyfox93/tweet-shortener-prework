@@ -41,7 +41,7 @@ def shortened_tweet_truncator(tweet)
   end
   words=words.join(" ")
   if words.length>140
-    words="#{words[0..137]}..."
+    words="#{words[0...137]}..."
   end
   words
 end
